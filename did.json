@@ -1,0 +1,19 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security#Ed25519VerificationKey2020"
+  ],
+  "id": "did:web:raw.githubusercontent.com:alexsdsr:did_test:refs:heads:main",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:alexsdsr:did_test:refs:heads:main#key-0",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:web:raw.githubusercontent.com:alexsdsr:did_test:refs:heads:main",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "pbaXXx7XTNbX9ExtlLm2YECzixhs1_BLSD79SwtRTPY"
+      }
+    }
+  ]
+}
